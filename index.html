@@ -5,7 +5,7 @@
 </style></head><body><main class="card"><div class="heart">💗🌷</div><h1>Veux-tu devenir ma girlfriend ? ❤️</h1><p>J’aimerais beaucoup qu’on soit ensemble. Qu’est-ce que tu en penses ? 🥹💖</p><div class="actions"><button id="yes">Oui, avec plaisir ❤️</button><button id="no">Désolée, non 💗</button></div><div class="status" id="status" role="status" aria-live="polite"></div><p class="note">Ta réponse ouvrira WhatsApp pour que tu puisses l’envoyer.</p></main>
 <script>
 // Remplace le numéro d'exemple par TON numéro WhatsApp international, chiffres uniquement, sans + ni espaces.
-const WHATSAPP_NUMBER = "2250701020304";
+const WHATSAPP_NUMBER = "+2250595072295";
 function sendAnswer(answer){const phone=WHATSAPP_NUMBER.replace(/\D/g,"");const example="2250701020304";const msg="Réponse à ta question « Veux-tu devenir ma girlfriend ? ❤️ » : "+answer;if(!phone||phone===example){document.getElementById("status").textContent="La page fonctionne ! Le créateur doit ajouter son numéro WhatsApp dans le fichier pour activer l’envoi.";return;}document.getElementById("status").textContent="WhatsApp s’ouvre avec ta réponse. Appuie sur Envoyer pour la transmettre. 💌";location.href="https://wa.me/"+phone+"?text="+encodeURIComponent(msg)}
 document.getElementById("yes").addEventListener("click",()=>sendAnswer("Oui ❤️"));document.getElementById("no").addEventListener("click",()=>sendAnswer("Non 💗"));
 </script></body></html>
